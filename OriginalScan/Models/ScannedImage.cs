@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
-namespace OriginalScan.Models
+namespace ScanProject.Models
 {
     public class ScannedImage : BaseModel
     {

@@ -27,7 +27,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Xml.Linq;
 
-namespace OriginalScan.Views
+namespace ScanProject.Views
 {
     /// <summary>
     /// Interaction logic for DocumentDetailWindow.xaml

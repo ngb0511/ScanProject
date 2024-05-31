@@ -17,7 +17,7 @@ using System.Windows.Threading;
 using FontAwesome5;
 using System.Windows.Media;
 
-namespace OriginalScan
+namespace ScanProject
 {
     /// <summary>
     /// Interaction logic for App.xaml

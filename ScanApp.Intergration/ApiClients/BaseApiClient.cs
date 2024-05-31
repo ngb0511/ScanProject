@@ -23,7 +23,7 @@ namespace ScanApp.Intergration.ApiClients
         private string ReadApiAddress()
         {
             //string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "apiAddress.txt");
-            string filePath = "D:\\GitLab\\OriScan\\OriginalScan\\apiAddress.txt";
+            string filePath = "D:\\GitLab\\OriScan\\ScanProject\\apiAddress.txt";
 
             string apiAddress = "";
 

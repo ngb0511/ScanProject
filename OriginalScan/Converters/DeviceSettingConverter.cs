@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OriginalScan
+namespace ScanProject
 {
     public abstract partial class DeviceSettingConverter
     {

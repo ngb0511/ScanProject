@@ -25,7 +25,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace OriginalScan.Views
+namespace ScanProject.Views
 {
     /// <summary>
     /// Interaction logic for DeviceWindow.xaml

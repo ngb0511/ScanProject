@@ -23,7 +23,7 @@ public partial class ScanContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        string connectionString = @"Data Source=C:\Code\LibraSoft\ScanProject\Oriscan\OriginalScan\scan.db";
+        string connectionString = @"Data Source=C:\Code\LibraSoft\ScanProject\Oriscan\ScanProject\scan.db";
 
         //ConnectionString for app packing, to file debug
         //string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "scan.db");

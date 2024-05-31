@@ -1,10 +1,10 @@
-﻿<Page x:Class="OriginalScan.Views.Pages.CutImagePage"
+﻿<Page x:Class="ScanProject.Views.Pages.CutImagePage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-      xmlns:local="clr-namespace:OriginalScan.Views.Pages"
+      xmlns:local="clr-namespace:ScanProject.Views.Pages"
       mc:Ignorable="d"
       d:Width="auto" d:Height="auto">
     <Page.Resources>

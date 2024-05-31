@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
-namespace OriginalScan.Converters
+namespace ScanProject.Converters
 {
     public static class BitmapConverter
     {

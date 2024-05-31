@@ -6,7 +6,7 @@ using Notification.Wpf.Constants;
 using Notification.Wpf.Controls;
 using NTwain;
 using NTwain.Data;
-using OriginalScan.Models;
+using ScanProject.Models;
 using ScanApp.Data.Entities;
 using ScanApp.Model.Requests.DeviceSetting;
 using ScanApp.Service.Constracts;
@@ -31,7 +31,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace OriginalScan.Views
+namespace ScanProject.Views
 {
     /// <summary>
     /// Interaction logic for ProfileSettingWindow.xaml

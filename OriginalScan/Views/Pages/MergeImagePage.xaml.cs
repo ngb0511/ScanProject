@@ -1,7 +1,7 @@
 ﻿using FontAwesome5;
 using Notification.Wpf;
-using OriginalScan.Converters;
-using OriginalScan.Models;
+using ScanProject.Converters;
+using ScanProject.Models;
 using ScanApp.Service.Constracts;
 using System;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace OriginalScan.Views.Pages
+namespace ScanProject.Views.Pages
 {
     /// <summary>
     /// Interaction logic for MergeImagePage.xaml

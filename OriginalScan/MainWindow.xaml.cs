@@ -6,10 +6,10 @@ using Notification.Wpf.Controls;
 using NTwain;
 using NTwain.Data;
 using NTwain.Triplets;
-using OriginalScan.Converters;
-using OriginalScan.Models;
-using OriginalScan.Views;
-using OriginalScan.Views.Pages;
+using ScanProject.Converters;
+using ScanProject.Models;
+using ScanProject.Views;
+using ScanProject.Views.Pages;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 using ScanApp.Common.Common;
@@ -48,7 +48,7 @@ using System.Windows.Shapes;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
-namespace OriginalScan
+namespace ScanProject
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

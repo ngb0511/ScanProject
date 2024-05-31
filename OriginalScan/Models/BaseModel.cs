@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OriginalScan.Models
+namespace ScanProject.Models
 {
     public class BaseModel : INotifyPropertyChanged
     {

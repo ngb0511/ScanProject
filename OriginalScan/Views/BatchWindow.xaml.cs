@@ -8,7 +8,7 @@ using Notification.Wpf.Classes;
 using Notification.Wpf.Constants;
 using Notification.Wpf.Controls;
 using NTwain.Data;
-using OriginalScan.Models;
+using ScanProject.Models;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 using ScanApp.Common.Common;
@@ -40,7 +40,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace OriginalScan.Views
+namespace ScanProject.Views
 {
     /// <summary>
     /// Interaction logic for BatchWindow.xaml
