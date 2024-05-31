@@ -2,12 +2,12 @@
 *.editorconfig
 .vs/
 
-OriginalScan/bin
-OriginalScan/obj
-OriginalScan/obj/Debug
-OriginalScan/bin
-OriginalScan/obj
-OriginalScan/obj/Debug
+ScanProject/bin
+ScanProject/obj
+ScanProject/obj/Debug
+ScanProject/bin
+ScanProject/obj
+ScanProject/obj/Debug
 
 ScanApp.Data/bin
 ScanApp.Entities/bin
