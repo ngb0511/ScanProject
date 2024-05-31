@@ -1,0 +1,129 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\Icons\cancelwhite.png" />
+    <None Remove="Resource\Icons\check-markwhite.png" />
+    <None Remove="Resource\Icons\checkmark.png" />
+    <None Remove="Resource\Icons\checkmark64.png" />
+    <None Remove="Resource\Icons\closewhite.png" />
+    <None Remove="Resource\Icons\cogwheel.png" />
+    <None Remove="Resource\Icons\crop.png" />
+    <None Remove="Resource\Icons\cross.png" />
+    <None Remove="Resource\Icons\cut.png" />
+    <None Remove="Resource\Icons\delete.png" />
+    <None Remove="Resource\Icons\diskette.png" />
+    <None Remove="Resource\Icons\document.png" />
+    <None Remove="Resource\Icons\edit.png" />
+    <None Remove="Resource\Icons\exit.png" />
+    <None Remove="Resource\Icons\eye.png" />
+    <None Remove="Resource\Icons\filelocation.png" />
+    <None Remove="Resource\Icons\imageicon.png" />
+    <None Remove="Resource\Icons\logout.png" />
+    <None Remove="Resource\Icons\merge.png" />
+    <None Remove="Resource\Icons\multiply.png" />
+    <None Remove="Resource\Icons\pdf.png" />
+    <None Remove="Resource\Icons\play.png" />
+    <None Remove="Resource\Icons\redo.png" />
+    <None Remove="Resource\Icons\submit.png" />
+    <None Remove="Resource\Icons\undo.png" />
+    <None Remove="Resource\Icons\whitedelete.png" />
+    <None Remove="Resource\Icons\zoom-out.png" />
+    <None Remove="Resource\Icons\zoom.png" />
+    <None Remove="Resource\Images\addscanicon.png" />
+    <None Remove="Resource\Images\completeicon.png" />
+    <None Remove="Resource\Images\cuticon.png" />
+    <None Remove="Resource\Images\deleteicon.png" />
+    <None Remove="Resource\Images\documenticon.png" />
+    <None Remove="Resource\Images\documents.png" />
+    <None Remove="Resource\Images\file.png" />
+    <None Remove="Resource\Images\folder.png" />
+    <None Remove="Resource\Images\foldericon.png" />
+    <None Remove="Resource\Images\mergepageicon.png" />
+    <None Remove="Resource\Images\pdf.png" />
+    <None Remove="Resource\Images\pdficon.png" />
+    <None Remove="Resource\Images\rotaterighticon.png" />
+    <None Remove="Resource\Images\saveicon.png" />
+    <None Remove="Resource\Images\scanner.png" />
+    <None Remove="Resource\Images\scannericon.png" />
+    <None Remove="Resource\Images\undoicon.png" />
+    <None Remove="Resource\Images\uploadicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome5" Version="2.1.11" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Notification.Wpf" Version="8.0.0" />
+    <PackageReference Include="NTwain" Version="3.7.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ScanApp.Common\ScanApp.Common.csproj" />
+    <ProjectReference Include="..\ScanApp.Intergration\ScanApp.Intergration.csproj" />
+    <ProjectReference Include="..\ScanApp.Service\ScanApp.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\Icons\cancelwhite.png" />
+    <Resource Include="Resource\Icons\check-markwhite.png" />
+    <Resource Include="Resource\Icons\checkmark.png" />
+    <Resource Include="Resource\Icons\checkmark64.png" />
+    <Resource Include="Resource\Icons\closewhite.png" />
+    <Resource Include="Resource\Icons\cogwheel.png" />
+    <Resource Include="Resource\Icons\crop.png" />
+    <Resource Include="Resource\Icons\cross.png" />
+    <Resource Include="Resource\Icons\cut.png" />
+    <Resource Include="Resource\Icons\delete.png" />
+    <Resource Include="Resource\Icons\diskette.png" />
+    <Resource Include="Resource\Icons\document.png" />
+    <Resource Include="Resource\Icons\edit.png" />
+    <Resource Include="Resource\Icons\exit.png" />
+    <Resource Include="Resource\Icons\eye.png" />
+    <Resource Include="Resource\Icons\imageicon.png" />
+    <Resource Include="Resource\Icons\logout.png" />
+    <Resource Include="Resource\Icons\merge.png" />
+    <Resource Include="Resource\Icons\multiply.png" />
+    <Resource Include="Resource\Icons\pdf.png" />
+    <Resource Include="Resource\Icons\play.png" />
+    <Resource Include="Resource\Icons\redo.png" />
+    <Resource Include="Resource\Icons\submit.png" />
+    <Resource Include="Resource\Icons\undo.png" />
+    <Resource Include="Resource\Icons\whitedelete.png" />
+    <Resource Include="Resource\Icons\zoom-out.png" />
+    <Resource Include="Resource\Icons\zoom.png" />
+    <Resource Include="Resource\Images\addscanicon.png" />
+    <Resource Include="Resource\Images\completeicon.png" />
+    <Resource Include="Resource\Images\cuticon.png" />
+    <Resource Include="Resource\Images\deleteicon.png" />
+    <Resource Include="Resource\Images\documenticon.png" />
+    <Resource Include="Resource\Images\documents.png" />
+    <Resource Include="Resource\Images\file.png" />
+    <Resource Include="Resource\Images\folder.png" />
+    <Resource Include="Resource\Images\foldericon.png" />
+    <Resource Include="Resource\Images\mergepageicon.png" />
+    <Resource Include="Resource\Images\pdf.png" />
+    <Resource Include="Resource\Images\pdficon.png" />
+    <Resource Include="Resource\Images\rotaterighticon.png" />
+    <Resource Include="Resource\Images\saveicon.png" />
+    <Resource Include="Resource\Images\scanner.png" />
+    <Resource Include="Resource\Images\scannericon.png" />
+    <Resource Include="Resource\Images\undoicon.png" />
+    <Resource Include="Resource\Images\uploadicon.png" />
+  </ItemGroup>
+
+</Project>
