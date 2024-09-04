@@ -36,10 +36,10 @@
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
+            <!--<RowDefinition Height="*"></RowDefinition>-->
             <RowDefinition Height="9*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
+        <!--<Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
@@ -109,7 +109,7 @@
                 </StackPanel>
             </Button>
 
-        </Grid>
+        </Grid>-->
         <GroupBox Header="DANH SÁCH TÀI LIỆU"
             FontWeight="Bold"
             materialDesign:ColorZoneAssist.Background="#00AE72"
@@ -228,9 +228,9 @@
                                         <Button x:Name="btnConvertToPdf" Click="btnConvertToPdf_Click" Background="Transparent" BorderThickness="0.5,0,0,0" BorderBrush="Black">
                                             <Image Width="15" Height="15" Source="/Resource/Images/pdficon.png" />
                                         </Button>
-                                        <Button x:Name="btnSubmit" Click="btnSubmit_Click" Background="Transparent" BorderThickness="0.5,0,0,0" BorderBrush="Black">
+                                        <!--<Button x:Name="btnSubmit" Click="btnSubmit_Click" Background="Transparent" BorderThickness="0.5,0,0,0" BorderBrush="Black">
                                             <Image Width="15" Height="15" Source="/Resource/Images/uploadicon.png" />
-                                        </Button>
+                                        </Button>-->
                                     </StackPanel>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
