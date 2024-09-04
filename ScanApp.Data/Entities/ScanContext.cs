@@ -23,11 +23,11 @@ public partial class ScanContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        string connectionString = @"Data Source=C:\Code\LibraSoft\ScanProject\Oriscan\ScanProject\scan.db";
+        //string connectionString = @"Data Source=C:\Code\ScanProject\ScanProject\scan.db";
 
         //ConnectionString for app packing, to file debug
-        //string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "scan.db");
-        //string connectionString = @"Data Source=" + dbPath;
+        string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "scan.db");
+        string connectionString = @"Data Source=" + dbPath;
 
         optionsBuilder.UseSqlite(connectionString);
     }
